@@ -11,7 +11,7 @@ Before defining the principle of Artificial Intelligence, we must first define w
 #### 1.2 Human Intelligence Definitions
 #### 1.3 Legg & Hutter
 
----
+
 
 ### Part II — Limitation of Mainstream Definitions
 
@@ -19,7 +19,7 @@ Before defining the principle of Artificial Intelligence, we must first define w
 #### 2.2 Lack of Underlying Mechanism
 #### 2.3 No Quantification Principle
 
----
+
 
 ### Part III — True Principle of Intelligence
 
@@ -29,7 +29,7 @@ Before defining the principle of Artificial Intelligence, we must first define w
 #### 3.4 Self-Organization
 #### 3.5 Decision-Making Probability
 
----
+
 
 ### Part IV — Principle of Artificial Intelligence
 
