@@ -1,1 +1,1 @@
-# The-Foundation-of-Artificial-Intellligence
+# The Foundation of Artificial Intelligence
