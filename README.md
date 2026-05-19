@@ -11,3 +11,5 @@ Mainstream theories of human intelligence generally define intelligence through 
 ## The SKA Definition of Intelligence
 
 From the SKA perspective, intelligence is not a static capability or behavioral attribute but a continuous self-organizing process: uncertainty reduction through information entropy, producing Structured Knowledge Accumulation (SKA) that shifts decision-making probabilities. Through interaction with experience, decision-making progressively becomes more coherent and adaptive.
+
+![diagram](diagram.png)
