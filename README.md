@@ -37,7 +37,7 @@ where $`\mathbf{z}^{(l)}_{k}`$ is the knowledge vector and $`\Delta \mathbf{D}^{
 
 - **Knowledge** ($\mathbf{z}$) refers to the pre-activation values in each neuron that serve as inputs to the sigmoid function, represented as a tensor $\mathbf{Z}$ or as vectors $\mathbf{z}^{(l)}$ for each layer $l$. Knowledge accumulates over forward passes and directly influences decision probabilities through the sigmoid transformation.
 
-- **Structured knowledge** describes knowledge $\mathbf{z}$ that has aligned with decision-probability shifts $`\Delta \mathbf{D}`$ in a way that minimizes layer-wise entropy. It is characterized by specific relationships between knowledge vectors and entropy gradients, and becomes identifiable when the Tensor Net function crosses zero, indicating $\int \mathbf{D}^{(l)}\, dz = \mathbf{H}^{(l)}$.
+- **Structured knowledge** describes knowledge $\mathbf{z}$ that has aligned with decision-probability shifts $\Delta \mathbf{D}$ in a way that minimizes layer-wise entropy. It is characterized by specific relationships between knowledge vectors and entropy gradients, and becomes identifiable when the Tensor Net function crosses zero, indicating $\int \mathbf{D}^{(l)}\, dz = \mathbf{H}^{(l)}$.
 
 - **Structured Knowledge Accumulation** is the process by which knowledge progressively increases in a structured manner, producing decision probabilities that better discriminate between classes. The process follows time-invariant trajectories with characteristic timescales and proceeds through forward-only learning, without requiring backpropagation.
 
