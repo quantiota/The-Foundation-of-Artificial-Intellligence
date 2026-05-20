@@ -42,3 +42,26 @@ where $`\mathbf{z}^{(l)}_{k}`$ is the knowledge vector and $`\Delta \mathbf{D}^{
 - **Structured Knowledge Accumulation** is the process by which knowledge progressively increases in a structured manner, producing decision probabilities that better discriminate between classes. The process follows time-invariant trajectories with characteristic timescales and proceeds through forward-only learning, without requiring backpropagation.
 
 These definitions specify the computational realization of the principle. They do not redefine intelligence — they show what intelligence *looks like* when the substrate is a neural network rather than a brain. The same principle that solves a jigsaw puzzle through self-organized uncertainty reduction also drives a SKA neural network to accumulate structured knowledge through forward-only entropy minimization. The puzzle solver and the network instantiate the same law in different substrates.
+
+
+## Riemannian Neural Fields
+
+The same mathematical formulation extends naturally from layered neural networks to continuous spatial fields. Where the discrete SKA framework indexes quantities by layer $l$ and step $k$, the Riemannian extension indexes them by position $\mathbf{r}$ on an information manifold and time $t$. The principle is unchanged; only the substrate becomes continuous.
+
+Knowledge becomes a tensor field $\mathbf{Z}(\mathbf{r}, t)$ defined at every point of the manifold, with decision probabilities $\mathbf{D}(\mathbf{r}, t) = \sigma(\mathbf{Z}(\mathbf{r}, t))$ following from the same sigmoid transformation. The layer-wise entropy
+
+$$H^{(l)} = -\frac{1}{\ln 2} \sum_{k} \mathbf{z}^{(l)}_{k} \cdot \Delta \mathbf{D}^{(l)}_{k}$$
+
+becomes a local entropy density
+
+$$h(\mathbf{r}) = -\frac{1}{\ln 2}\, \mathbf{z}(\mathbf{r}) \cdot d\mathbf{D}(\mathbf{r}),$$
+
+defined at every spatial point. The discrete sum over layer index $k$ is replaced by an integral over the manifold, but the form of the expression — knowledge aligned with decision-probability shifts under the same $-1/\ln 2$ factor — is preserved exactly. Forward-only updates, characteristic timescales, and the Tensor Net criterion all carry over without modification.
+
+What is new in the continuous formulation is the geometry. The manifold carries a Riemannian metric
+
+$$g_{ij}(\mathbf{r}) = \alpha\, (\nabla h)_i (\nabla h)_j + \beta\, (\nabla \rho)_i (\nabla \rho)_j + \gamma\, \delta_{ij},$$
+
+built from gradients of the entropy field $h$ and the neuron-density field $\rho$. Knowledge then propagates along geodesics of this metric — paths that minimize information distance — and the network's connectivity emerges from the entropy and density landscape rather than being specified in advance. Architecture is no longer a design choice; it self-organizes from the same principle that drives learning.
+
+This extension demonstrates that the SKA principle is not tied to a layered architecture. The discrete neural network is one realization of the principle; the Riemannian neural field is another, at higher generality. Both instantiate uncertainty reduction through information entropy, producing structured knowledge that shifts decision probabilities. The continuity of the mathematical formulation across the two — same entropy expression, same sigmoid transformation, same forward-only dynamics — confirms that the principle is substrate-independent, and that what changes from one realization to the next is only the geometry on which the dynamics unfold.
