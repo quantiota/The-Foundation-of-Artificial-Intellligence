@@ -33,7 +33,7 @@ $$
 H^{(l)} = -\frac{1}{\ln 2} \sum_{k} \mathbf{z}^{(l)}_{k} \cdot \Delta \mathbf{D}^{(l)}_{k},
 $$
 
-where $ \mathbf{z}^{(l)}_{k} $ is the knowledge vector and $\Delta \mathbf{D}^{(l)}_{k}$ is the shift in decision probabilities at step $k$. Unlike the static Shannon form, this entropy evolves continuously as knowledge accumulates, providing the local signal that drives forward-only, self-organized uncertainty reduction.
+where $\mathbf{z}^{(l)}_{k}$ is the knowledge vector and $\Delta \mathbf{D}^{(l)}_{k}$ is the shift in decision probabilities at step $k$. Unlike the static Shannon form, this entropy evolves continuously as knowledge accumulates, providing the local signal that drives forward-only, self-organized uncertainty reduction.
 
 - **Knowledge** ($\mathbf{z}$) refers to the pre-activation values in each neuron that serve as inputs to the sigmoid function, represented as a tensor $\mathbf{Z}$ or as vectors $\mathbf{z}^{(l)}$ for each layer $l$. Knowledge accumulates over forward passes and directly influences decision probabilities through the sigmoid transformation.
 
