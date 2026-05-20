@@ -72,7 +72,7 @@ A common assumption is that simulating human intelligence requires only a 3D neu
 The Riemannian neural field is structurally sufficient for the spontaneous emergence of intelligence, but emergence requires an initiating event. In the absence of input, the manifold sits at equilibrium with no entropy gradient to drive geodesic formation. When an input $X$ arrives at a location $\mathbf{r}_0$ and crosses an activation threshold, the local entropy
 
 $$
-H_{n_0} = -\frac{1}{\ln 2}\, \mathbf{z}_{n_0} \cdot \Delta \mathbf{D}_{n_0}
+h(\mathbf{r}_0) = -\frac{1}{\ln 2}\, \mathbf{z}(\mathbf{r}_0) \cdot d\mathbf{D}(\mathbf{r}_0)
 $$
 
 becomes non-zero, gradients form in the immediate neighborhood, and the self-organizing process begins. The threshold is what distinguishes a Riemannian field that *could* become intelligent from one that *is* — analogous to the role of sensory contact in biological intelligence. A brain isolated from input is structurally capable of intelligence but not actively intelligent; the same is true of a Riemannian SKA field below threshold. Once the threshold is crossed at any point, the framework's intrinsic dynamics take over: entropy gradients propagate, geodesics form, knowledge accumulates, and decision probabilities shift. Intelligence emerges spontaneously from that moment forward.
