@@ -33,7 +33,7 @@ $$
 H^{(l)} = -\frac{1}{\ln 2} \sum_{k} \mathbf{z}^{(l)}_{k} \cdot \Delta \mathbf{D}^{(l)}_{k},
 $$
 
-where $\mathbf{z}^{(l)}_{k}$ is the knowledge vector and $\Delta \mathbf{D}^{(l)}_{k}$ is the shift in decision probabilities at step $k$. Unlike the static Shannon form, this entropy evolves continuously as knowledge accumulates, providing the local signal that drives forward-only, self-organized uncertainty reduction
+
 
 - **Knowledge** ($\mathbf{z}$) refers to the pre-activation values in each neuron that serve as inputs to the sigmoid function, represented as a tensor $\mathbf{Z}$ or as vectors $\mathbf{z}^{(l)}$ for each layer $l$. Knowledge accumulates over forward passes and directly influences decision probabilities through the sigmoid transformation.
 
@@ -42,3 +42,6 @@ where $\mathbf{z}^{(l)}_{k}$ is the knowledge vector and $\Delta \mathbf{D}^{(l)
 - **Structured Knowledge Accumulation** is the process by which knowledge progressively increases in a structured manner, producing decision probabilities that better discriminate between classes. The process follows time-invariant trajectories with characteristic timescales and proceeds through forward-only learning, without requiring backpropagation.
 
 These definitions specify the computational realization of the principle. They do not redefine intelligence — they show what intelligence *looks like* when the substrate is a neural network rather than a brain. The same principle that solves a jigsaw puzzle through self-organized uncertainty reduction also drives a SKA neural network to accumulate structured knowledge through forward-only entropy minimization. The puzzle solver and the network instantiate the same law in different substrates.
+
+
+where $\mathbf{z}^{(l)}_{k}$ is the knowledge vector and $\Delta \mathbf{D}^{(l)}_{k}$ is the shift in decision probabilities at step $k$. Unlike the static Shannon form, this entropy evolves continuously as knowledge accumulates, providing the local signal that drives forward-only, self-organized uncertainty reduction
