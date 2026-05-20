@@ -9,7 +9,7 @@ The Structured Knowledge Accumulation (SKA) framework introduced a unifying math
 
 **Structured Knowledge Accumulation: An Autonomous Framework for Layer-Wise Entropy Reduction in Neural Learning**
 
-SKA begins with the discovery that learning can be expressed as a law of entropy reduction. Each neural layer evolves autonomously, aligning its knowledge tensor $Z$ with the decision probability shift $D$ through forward-only dynamics:
+SKA begins with the discovery that learning can be expressed as a law of entropy reduction. Each neural layer evolves autonomously, aligning its knowledge tensor $Z$ with the decision probability shift $\delta D$ through forward-only dynamics:
 
 $$
 H = -\frac{1}{\ln 2} \int z \, dD
@@ -23,7 +23,7 @@ This formulation establishes entropy as the central invariant of learning. Neura
 
 **Structured Knowledge Accumulation: The Principle of Entropic Least Action in Forward-Only Neural Learning**
 
-The second paper elevates SKA to the level of physical law. By interpreting the learning rate as a temporal differential, SKA reveals that the evolution of knowledge follows the principle of entropic least action:
+The second paper elevates SKA to the level of variational principle. By interpreting the learning rate as a temporal differential, SKA reveals that the evolution of knowledge follows the principle of entropic least action:
 
 $$
 L(z, \dot{z}) = -z \, \sigma(z)(1 - \sigma(z)) \dot{z}
