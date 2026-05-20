@@ -29,7 +29,9 @@ Within the SKA framework, these terms are defined as follows:
 
 - **Information entropy** is redefined as a dynamic, layer-wise measure of knowledge alignment in a neural network. For a layer $l$, it is given by
 
-  $$ H^{(l)} = -\frac{1}{\ln 2} \sum_{k} \mathbf{z}^{(l)}_{k} \cdot \Delta \mathbf{D}^{(l)}_{k}, $$
+  $$
+  H^{(l)} = -\frac{1}{\ln 2} \sum_{k} \mathbf{z}^{(l)}_{k} \cdot \Delta \mathbf{D}^{(l)}_{k},
+  $$
 
   where $\mathbf{z}^{(l)}_{k}$ is the knowledge vector and $\Delta \mathbf{D}^{(l)}_{k}$ is the shift in decision probabilities at step $k$. Unlike the static Shannon form, this entropy evolves continuously as knowledge accumulates, providing the local signal that drives forward-only, self-organized uncertainty reduction.
 
