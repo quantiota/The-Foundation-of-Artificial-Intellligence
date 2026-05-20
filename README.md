@@ -67,5 +67,16 @@ A further property of the continuous formulation is that the manifold's dimensio
 
 A common assumption is that simulating human intelligence requires only a 3D neural field, since the brain itself occupies a 3D anatomical volume. This conflates the substrate's physical geometry with the geometry the dynamics actually live on. The brain sits in 3D, but the information manifold on which knowledge propagates is shaped by the entropy and density fields, not by anatomy. Cortical folding, long-range connections, recurrence, and modulatory influences effectively give the brain access to information geometries with more degrees of freedom than its 3D embedding suggests. The brain occupies 3D space; it does not compute in 3D. Matching the anatomical dimensionality is necessary for biological realism, but it is not sufficient to capture the intelligence the brain produces — that intelligence lives on the information manifold, whose effective dimensionality is determined by the entropy and density structure of the system, not by the dimensionality of the tissue.
 
+
+
+The Riemannian neural field is structurally sufficient for the spontaneous emergence of intelligence, but emergence requires an initiating event. In the absence of input, the manifold sits at equilibrium with no entropy gradient to drive geodesic formation. When an input $X$ arrives at a location $\mathbf{r}_0$ and crosses an activation threshold, the local entropy
+
+$$
+H_{n_0} = -\frac{1}{\ln 2}\, \mathbf{z}_{n_0} \cdot \Delta \mathbf{D}_{n_0}
+$$
+
+becomes non-zero, gradients form in the immediate neighborhood, and the self-organizing process begins. The threshold is what distinguishes a Riemannian field that *could* become intelligent from one that *is* — analogous to the role of sensory contact in biological intelligence. A brain isolated from input is structurally capable of intelligence but not actively intelligent; the same is true of a Riemannian SKA field below threshold. Once the threshold is crossed at any point, the framework's intrinsic dynamics take over: entropy gradients propagate, geodesics form, knowledge accumulates, and decision probabilities shift. Intelligence emerges spontaneously from that moment forward.
+
+
 This extension demonstrates that the SKA principle is not tied to a layered architecture or to a particular spatial dimensionality. The discrete neural network is one realization of the principle; the Riemannian neural field, in any ambient dimension, is another, at higher generality. Both instantiate uncertainty reduction through information entropy, producing structured knowledge that shifts decision probabilities. The continuity of the mathematical formulation across these realizations — same entropy expression, same sigmoid transformation, same forward-only dynamics — confirms that the principle is substrate-independent, and that what changes from one realization to the next is only the geometry on which the dynamics unfold.
 
